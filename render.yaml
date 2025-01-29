@@ -7,9 +7,9 @@ services:
   plan: free
   autoDeploy: false
   envVars:
-  - key: ChannelAccessToken
+  - key: GEMINI_API_KEY
     sync: false
-  - key: ChannelSecret
+  - key: LINE_BOT_CHANNEL_SECRET
     sync: false
-  - key: GOOGLE_GEMINI_API_KEY
+  - key: LINE_BOT_CHANNEL_TOKEN
     sync: false
